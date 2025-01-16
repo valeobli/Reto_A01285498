@@ -7,9 +7,7 @@
 using namespace std;
 
 class Video {
-
 public:
-
     Video();
     Video(string tipo, string nom, string gene, int cali, int ano, int dura);
 
@@ -32,19 +30,16 @@ public:
     int getDuracion() const;
 
     void calificaVideo(int nuevaCalificacion);
-    void muestraDatos() const;
 
+    void muestraDatos() const;  
 
 private:
-
     string tipoVideo;
     string nombreVideo;
     string genero;
     int calificacion;
     int anioLanzamiento;
     int duracion;
-
-
 };
 
-#endif 
+#endif
